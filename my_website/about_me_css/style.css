@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(167, 177, 170);
+}
+p {
+  color: #000;
+  font-size: 27px;
+  background-color: rgb(71, 92, 112);
+  width: fit-content;
+}
+.a1 {
+  text-decoration: none;
+}
+.a1:target {
+}
+.h11 {
+  color: rgb(29, 31, 31);
+}
+.h12 {
+  font-style: initial;
+  color: bisque;
+}
+
+.list1 {
+  color: darkred;
+  list-style: none;
+  margin-left: -18px;
+  font-size: 20px;
+  display: flex;
+}
+/* .list1:first-child {
+  display: block;
+} */
+.list2 {
+  font-size: medium;
+  color: blue;
+  padding: 12px 12px;
+}
+.list2 li {
+  padding: 2px 2px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+.AP {
+  width: 200px;
+  height: 200px;
+}
+.KEN {
+  width: 200px;
+  height: 200px;
+}
+.JUL {
+  width: 200px;
+  height: 200px;
+}
+.imagecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.homediv {
+  background-color: rgb(12, 12, 73);
+}
+/* .header {
+  /*  */
+/* .homelist {
+} */
+.homelist {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.homelist li {
+  list-style: none;
+  margin-top: 24px;
+}
+.homelist li a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 20px;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+.homelist li a:hover {
+  color: gray;
+  cursor: pointer;
+}
